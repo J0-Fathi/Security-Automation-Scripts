@@ -20,6 +20,12 @@ This tool:
 - Metasploit-style Terminal Output
 
 ---
+## How to Run
+python .\log.py
+
+## Outut Sample
+("Output.jpg")
+---
 
 ## 📂 Example JSON Log Format
 
@@ -32,8 +38,4 @@ This tool:
 ]
 
 
-## How to Run
-python .\log.py
 
-## Outut Sample
-("/SOC/Log Analysis/Output.jpg")
