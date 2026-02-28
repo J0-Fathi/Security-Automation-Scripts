@@ -23,8 +23,9 @@ This tool:
 ## How to Run
 python .\log.py
 
-## Outut Sample
-("/Output.jpg")
+## Output Sample
+
+![SOC Output](Output.jpg)
 ---
 
 ## 📂 Example JSON Log Format
