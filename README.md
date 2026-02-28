@@ -1,7 +1,39 @@
-# Security-Automation-Scripts
-Here you can automate every single function you use in cyber security even it for offensive or defense by most famous script languages (Python, Go, Bash..etc) 
-## In this reposetry you will find folders for functions automation like:
-1. SOC
-2. Penteration Testing
-3. Red Team
-4. Bug Bounty Hunting
+# 🔐 Simple SOC Log Analyzer
+
+A beginner-level Python project that simulates a simple SOC (Security Operations Center) log analysis tool.
+
+This tool:
+- Reads login logs from a JSON file
+- Counts failed login attempts per user
+- Detects suspicious users (3+ failed attempts)
+- Assigns risk levels (LOW / MEDIUM / HIGH)
+- Generates a terminal-style security report
+
+---
+
+## 🚀 Features
+
+- JSON Log File Input
+- Failed Login Counter
+- Suspicious User Detection
+- Risk Level Classification
+- Metasploit-style Terminal Output
+
+---
+
+## 📂 Example JSON Log Format
+
+```json
+[
+  {"user": "ali", "status": "failed"},
+  {"user": "ali", "status": "failed"},
+  {"user": "mona", "status": "success"},
+  {"user": "ahmed", "status": "failed"}
+]
+
+
+## How to Run
+python .\log.py
+
+## Outut Sample
+("/SOC/Log Analysis/Output.jpg")
