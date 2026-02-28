@@ -24,7 +24,7 @@ This tool:
 python .\log.py
 
 ## Outut Sample
-("Output.jpg")
+("/Output.jpg")
 ---
 
 ## 📂 Example JSON Log Format
